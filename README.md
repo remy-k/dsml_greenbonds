@@ -23,8 +23,11 @@ The code has been designed to be easily accessible without requiring any install
 An [interactive tool](https://www.wolframcloud.com/obj/eric.bolliger/WebServices/GB_formmulti) has been developed to allow investors or interested parties to input green bond documents and receive a prediction of the potential impact score.
  
 The system provides a prompt for the user to input the URL of a desired issuance document. 
+
 <a href="https://ibb.co/rMbZQrr"><img src="https://i.ibb.co/q90RDQQ/Bildschirmfoto-2022-12-18-um-10-31-24.png" alt="Bildschirmfoto-2022-12-18-um-10-31-24" border="0"></a>
+
 Upon submission, the user is presented with a menu containing a prediction of the document's impact score, generated using our most accurate predictor.
+
 <a href="https://ibb.co/X5NjQ2w"><img src="https://i.ibb.co/vdgVFwt/Bildschirmfoto-2022-12-18-um-10-32-30.png" alt="Bildschirmfoto-2022-12-18-um-10-32-30" border="0"></a>
 
 # Dataset
@@ -39,7 +42,7 @@ The project has been carried out on [Wolfram Mathematica](https://www.wolfram.co
 The latest version of our predictor function has been trained using a large amount of data and takes multiple variables as input, which increases its overall robustness.
 The following are the key performance measures of our predictor:
 |                |                          |                       
-|----------------|-------------------------------|
+|----------------|----------|
 |Predictor method |`RandomForest`            |
 |Number of test examples |`75`            |
 |Standard deviation          |`20.5 ± 2.5`|
@@ -59,3 +62,8 @@ The main limitations that come with this project are:
 -   Hypothesis: The sentiment expressed in bond issuance documents can be used to predict bond performance.
 -   Built-in functions in Mathematica: The Classify and Predict functions in Mathematica have a proven track record of reliability, but may have limitations in terms of their accuracy.
 -   Limited computational capacity: In order to create a user-friendly tool for potential investors, the model must be able to run efficiently and be easy to install.
+
+# Contributors
+
+
+The project was completed as part of the Data Science and Machine Learning II course taught at the École Polytechnique Fédérale de Lausanne by Professor Michalis Vlachos and Dr. Boris Thurm. The project was carried out by Éric Bolliger, Lucas Spehler, and Rémy Kurum.
