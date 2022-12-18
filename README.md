@@ -32,6 +32,7 @@ Upon submission, the user is presented with a menu containing a prediction of th
 
 # Dataset
 The data used in the project was sourced from the [TruCost  Environmental database](46https://www.wolframcloud.com/obj/eric.bolliger/WebServices/GB_ImpactScore), which contains extensive information on the environmental impact of over 16,800 companies across various dimensions.
+After performing data cleaning, a sample of 377 companies with complete information was used for analysis.
 
 # Implementation 
 
